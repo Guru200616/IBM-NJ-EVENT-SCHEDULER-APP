@@ -1,115 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="empty_view_title">Нет задач</string>
-    <string name="empty_view_text">Создайте новые задачи \n с помощью кнопки +</string>
-    <string name="create_task">НОВАЯ ЗАДАЧА</string>
-    <string name="set_reminder">Добавить напоминание</string>
-    <string name="set_reminder_short">Напоминание</string>
-    <string name="hint_title">Заголовок</string>
-    <string name="hint_date">Дата</string>
-    <string name="hint_time">Время</string>
-    <string name="add_task">Добавить задачу</string>
-    <string name="update_task">Обновить задачу</string>
-    <string name="edit_task">ИЗМЕНИТЬ ЗАДАЧУ</string>
-    <string name="toast_incorrect_time">Ошибка! Вы выбрали неправильное время!</string>
-    <string name="error_text_input">Пожалуйста, введите текст!</string>
-    <string name="error_spaces">Ошибка! Введённый текст состоит только из пробелов!</string>
+    <string name="app_name">Simple ToDo</string>
+    <string name="simple_todo_title">SIMPLE TODO</string>
+    <string name="empty_view_title">No tasks</string>
+    <string name="empty_view_text">You can create new tasks \n using the + button</string>
+    <string name="create_task">NEW TASK</string>
+    <string name="set_reminder">Set reminder</string>
+    <string name="set_reminder_short">Reminder</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_time">Time</string>
+    <string name="add_task">ADD TASK</string>
+    <string name="update_task">UPDATE TASK</string>
+    <string name="edit_task">EDIT TASK</string>
 
-    <string name="preferences_animation_title">Включить анимацию</string>
-    <string name="preferences_animation_summary">Включить анимацию для элементов интерфейса</string>
-    <string name="preferences_general_notification_title">Включить общее уведомление</string>
-    <string name="preferences_general_notification_summary">Показывать отдельное уведомление с вашим текущим списком задач</string>
-    <string name="preferences_notification_sound_title">Звук уведомления</string>
-    <string name="preferences_notification_sound_summary">Настройка звука уведомления</string>
-    <string name="preferences_date_format_title">Формат даты</string>
-    <string name="preferences_date_format_summary">Изменить формат даты</string>
-    <string name="preferences_backup_create_title">Создать резервную копию</string>
-    <string name="preferences_backup_create_summary">Экспорт задач в память устройства</string>
-    <string name="preferences_backup_restore_title">Восстановить резервную копию</string>
-    <string name="preferences_backup_restore_summary">Импорт задач из памяти устройства</string>
-    <string name="preferences_rate_app_title">Оценить приложение</string>
-    <string name="preferences_rate_app_summary">Оцените это приложение в Google Play</string>
-    <string name="preferences_send_feedback_title">Написать автору</string>
-    <string name="preferences_send_feedback_summary">Предлагайте свои идеи и сообщайте о багах</string>
-    <string name="preferences_other_apps_title">Другие приложения</string>
-    <string name="preferences_other_apps_summary">Другие приложения разработчика в Google Play</string>
-    <string name="preferences_about_version_title">Версия</string>
-    <string name="preferences_about_licenses_summary">Использованные библиотеки</string>
-    <string name="preferences_about_licenses_title">Лицензии</string>
+    <string name="toast_incorrect_time">Error! You have selected an incorrect time!</string>
+    <string name="error_text_input">Please, input some text!</string>
+    <string name="error_spaces">Error! The entered text consists only of spaces!</string>
 
-    <string name="feedback_title">Simple ToDo - Отзыв</string>
-    <string name="feedback_device_info">Информация о моём устройстве: </string>
-    <string name="feedback_app_version">Версия приложения: </string>
-    <string name="feedback">Отзыв: </string>
+    <string name="preferences_animation_title">Enable animations</string>
+    <string name="preferences_animation_summary">Enable animations for UI elements</string>
+    <string name="preferences_general_notification_title">Enable general notification</string>
+    <string name="preferences_general_notification_summary">Show general notification with you current task list</string>
+    <string name="preferences_notification_sound_title">Notification sound</string>
+    <string name="preferences_notification_sound_summary">Set the notification sound</string>
+    <string name="preferences_date_format_title">Date format</string>
+    <string name="preferences_date_format_summary">Change date format</string>
+    <string name="preferences_backup_create_title">Create backup</string>
+    <string name="preferences_backup_create_summary">Export tasks to the device storage</string>
+    <string name="preferences_backup_restore_title">Restore backup</string>
+    <string name="preferences_backup_restore_summary">Import tasks from the device storage</string>
+    <string name="preferences_rate_app_title">Rate this app</string>
+    <string name="preferences_rate_app_summary">Rate this app on Google Play store</string>
+    <string name="preferences_send_feedback_title">Send feedback</string>
+    <string name="preferences_send_feedback_summary">Suggest ideas or tell about bugs</string>
+    <string name="preferences_other_apps_title">Other apps</string>
+    <string name="preferences_other_apps_summary">Other developer\'s apps on Google Play</string>
+    <string name="preferences_about_version_title">Version</string>
+    <string name="preferences_about_licenses_summary">Used libraries</string>
+    <string name="preferences_about_licenses_title">Licenses</string>
 
-    <string name="category_general">Общие настройки</string>
-    <string name="category_backup_and_restore">Резервное копирование данных</string>
-    <string name="category_additional">Дополнительно</string>
-    <string name="category_about">О приложении</string>
+    <string name="feedback_title">Simple ToDo - Feedback</string>
+    <string name="feedback_device_info">My device info: </string>
+    <string name="feedback_app_version">App version: </string>
+    <string name="feedback">Feedback: </string>
 
-    <string name="settings">НАСТРОЙКИ</string>
-    <string name="settings_menu">Настройки</string>
-    <string name="licenses">ЛИЦЕНЗИИ</string>
-    <string name="search">Поиск</string>
+    <string name="category_general">General settings</string>
+    <string name="category_backup_and_restore">Backup/Restore</string>
+    <string name="category_additional">Additional</string>
+    <string name="category_about">About</string>
 
-    <string name="reminder_text">Напоминание</string>
-    <string name="reminder_today">Сегодня в</string>
-    <string name="reminder_yesterday">Вчера в</string>
-    <string name="reminder_tomorrow">Завтра в</string>
-    <string name="licenses_circular_anim_summary">Распространяется без лицензии</string>
+    <string name="settings">SETTINGS</string>
+    <string name="settings_menu">Settings</string>
+    <string name="licenses">LICENSES</string>
+    <string name="search">Search</string>
 
-    <string name="snackbar_remove_task">Задача удалена!</string>
-    <string name="snackbar_undo">Отмена</string>
-    <string name="action_cancel">Отмена</string>
-    <string name="action_delete">Удалить</string>
-    <string name="dialog_title"><b>Вы уверены?</b></string>
-    <string name="dialog_message">Удалить эту задачу?</string>
+    <string name="reminder_text">Reminder</string>
+    <string name="reminder_today">Today at</string>
+    <string name="reminder_yesterday">Yesterday at</string>
+    <string name="reminder_tomorrow">Tomorrow at</string>
+    <string name="licenses_circular_anim_summary">This software distributed without a license</string>
 
-    <string name="backup_create_dialog_message">Создать новый бэкап? \nПредыдущий файл бэкапа будет удален</string>
-    <string name="backup_create_dialog_button">Создать</string>
-    <string name="backup_restore_dialog_message">Восстановить бэкап? \nТекущие задачи не будут удалены</string>
-    <string name="backup_restore_dialog_button">Восстановить</string>
+    <string name="snackbar_remove_task">Task is removed!</string>
+    <string name="snackbar_undo">Undo</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="dialog_title"><b>Are you sure?</b></string>
+    <string name="dialog_message">Delete this task?</string>
 
-    <string name="backup_create_message_success">Бэкап успешно создан!</string>
-    <string name="backup_create_message_failure">Не удалось создать бэкап!</string>
-    <string name="backup_restore_message_success">Бэкап восстановлен!</string>
-    <string name="backup_restore_message_failure">Не удалось восстановить бэкап!</string>
-    <string name="backup_restore_message_nothing">Нет данных для восстановления</string>
+    <string name="backup_create_dialog_message">Do you want to create new backup? \nThe previous backup file will be deleted</string>
+    <string name="backup_create_dialog_button">Create backup</string>
+    <string name="backup_restore_dialog_message">Do you want to restore the backup? \nCurrent tasks will not be deleted</string>
+    <string name="backup_restore_dialog_button">Restore backup</string>
 
-    <string name="settings_permission_denied_toast">Разрешение на доступ к памяти не предоставлено</string>
-    <string name="settings_permission_settings_toast">Откройте Разрешения и активируйте переключатель Память</string>
-    <string name="settings_permission_snackbar_with_rationale">Доступ к памяти нужен для записи бэкапа в файл</string>
-    <string name="settings_permission_snackbar_button_grant">РАЗРЕШИТЬ</string>
-    <string name="settings_permission_snackbar_no_permission">Разрешение на доступ к памяти отклонено</string>
-    <string name="settings_permission_snackbar_button_settings">НАСТРОЙКИ</string>
+    <string name="backup_create_message_success">Backup created successfully!</string>
+    <string name="backup_create_message_failure">Failed to create backup!</string>
+    <string name="backup_restore_message_success">Backup is restored!</string>
+    <string name="backup_restore_message_failure">Failed to restore backup!</string>
+    <string name="backup_restore_message_nothing">Nothing to restore</string>
 
-    <string name="general_notification_1">У вас есть</string>
-    <string name="general_notification_2">активная задача:</string>
-    <string name="general_notification_3">активных задачи:</string>
-    <string name="general_notification_4">активных задач:</string>
+    <string name="settings_permission_denied_toast">Storage permission denied</string>
+    <string name="settings_permission_settings_toast">Open "Permissions" and grant the "Storage permission"</string>
+    <string name="settings_permission_snackbar_with_rationale">Storage permission is needed to write a backup to a file</string>
+    <string name="settings_permission_snackbar_button_grant">GRANT</string>
+    <string name="settings_permission_snackbar_no_permission">Storage permission isn\'t granted</string>
+    <string name="settings_permission_snackbar_button_settings">SETTINGS</string>
+
+    <string name="general_notification_1">You have</string>
+    <string name="general_notification_2">active task:</string>
+    <string name="general_notification_3">active tasks:</string>
+    <string name="general_notification_4">active tasks:</string>
 
     ////////////////<!-- "What's New?" page -->////////////////
-    <string name="whats_new_title">Что нового?</string>
-    <string name="whats_new_button_text">Продолжить</string>
-    <string name="whats_new_item_1_title">Настройка звука уведомления</string>
-    <string name="whats_new_item_1_text">Теперь вы можете устанавливать свои рингтоны в качестве звука для уведомлений</string>
-    <string name="whats_new_item_2_title">Улучшение виджета</string>
-    <string name="whats_new_item_2_text">Все задачи, отображаемые в виджете, стали кликабельны</string>
-    <string name="whats_new_item_3_title">Исправление ошибок</string>
-    <string name="whats_new_item_3_text">Исправлено множество ошибок</string>
+    <string name="whats_new_title">What\'s New?</string>
+    <string name="whats_new_button_text">Continue</string>
+    <string name="whats_new_item_1_title">Custom notification sound</string>
+    <string name="whats_new_item_1_text">Set custom ringtones for notification sound</string>
+    <string name="whats_new_item_2_title">Widget improvement</string>
+    <string name="whats_new_item_2_text">Now tasks on widget are clickable</string>
+    <string name="whats_new_item_3_title">Bug fixes</string>
+    <string name="whats_new_item_3_text">Many bugs have been fixed</string>
 
     ///////////////<!-- Rate this app dialog -->///////////////
-    <string name="rate_dialog_message">Если вам понравилось это приложение, пожалуйста, найдите время, чтобы оценить его. Это не займет больше минуты. Спасибо за вашу поддержку!</string>
-    <string name="rate_dialog_ok">Оценить</string>
-    <string name="rate_dialog_cancel">Позже</string>
-    <string name="rate_dialog_no">Нет, спасибо</string>
+    <string name="rate_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate now</string>
+    <string name="rate_dialog_cancel">Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
 
     ////////////////<!-- Date format dialog -->/////////////////
-    <string name="date_format_dialog_title">Выберете формат даты:</string>
+    <string name="date_format_dialog_title">Choose date format:</string>
     <string-array name="date_format_list">
-        <item>День.Месяц.Год</item>
-        <item>Год.Месяц.День</item>
-        <item>Месяц.День.Год</item>
-        <item>Год.День.Месяц</item>
+        <item>Day.Month.Year</item>
+        <item>Year.Month.Day</item>
+        <item>Month.Day.Year</item>
+        <item>Year.Day.Month</item>
     </string-array>
 </resources>
